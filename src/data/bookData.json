@@ -1,0 +1,83 @@
+[
+    {
+        "author": "J.K. Rowling",
+        "title": "Harry Potter and the Sorcerer's Stone",
+        "imageUrl": "https://images-na.ssl-images-amazon.com/images/I/91n7p-j5aqL._AC_UL600_SR600,400_.jpg",
+        "price": 10.99,
+        "genre": "fantasy",
+        "numberOfPages": 320,
+        "publicationDate": "1997-06-26"
+    },
+    {
+        "author": "Rick Riordan",
+        "title": "Percy Jackson and the Olympians: The Lightning Thief",
+        "imageUrl": "https://images-na.ssl-images-amazon.com/images/I/917Bc9C1MlL._AC_UL600_SR600,400_.jpg",
+        "price": 9.99,
+        "genre": "adventure",
+        "numberOfPages": 384,
+        "publicationDate": "2005-06-28"
+    },
+    {
+        "author": "Suzanne Collins",
+        "title": "The Hunger Games",
+        "imageUrl": "https://images-na.ssl-images-amazon.com/images/I/81v6oWQZj1L._AC_UL600_SR600,400_.jpg",
+        "price": 11.99,
+        "genre": "dystopian",
+        "numberOfPages": 374,
+        "publicationDate": "2008-09-14"
+    },
+    {
+        "author": "John Green",
+        "title": "The Fault in Our Stars",
+        "imageUrl": "https://images-na.ssl-images-amazon.com/images/I/81KuLAC1XdL._AC_UL600_SR600,400_.jpg",
+        "price": 12.99,
+        "genre": "romance",
+        "numberOfPages": 312,
+        "publicationDate": "2012-01-10"
+    },
+    {
+        "author": "Cassandra Clare",
+        "title": "The City of Bones",
+        "imageUrl": "https://images-na.ssl-images-amazon.com/images/I/81tdvyI0MeL._AC_UL600_SR600,400_.jpg",
+        "price": 10.99,
+        "genre": "urban fantasy",
+        "numberOfPages": 485,
+        "publicationDate": "2009-03-31"
+    },
+    {
+        "author": "Neil Gaiman",
+        "title": "The Graveyard Book",
+        "imageUrl": "https://images-na.ssl-images-amazon.com/images/I/71pL+3nMzfL._AC_UL600_SR600,400_.jpg",
+        "price": 11.99,
+        "genre": "fantasy",
+        "numberOfPages": 310,
+        "publicationDate": "2008-09-08"
+    },
+    {
+        "author": "Philip Pullman",
+        "title": "The Golden Compass",
+        "imageUrl": "https://images-na.ssl-images-amazon.com/images/I/71RxwXoyOFL._AC_UL600_SR600,400_.jpg",
+        "price": 12.99,
+        "genre": "fantasy",
+        "numberOfPages": 399,
+        "publicationDate": "1995-10-19"
+    },
+    {
+        "author": "Lemony Snicket",
+        "title": "A Series of Unfortunate Events: The Bad Beginning",
+        "imageUrl": "https://images-na.ssl-images-amazon.com/images/I/91HiZ8SjsNL._AC_UL600_SR600,400_.jpg",
+        "price": 9.99,
+        "genre": "mystery",
+        "numberOfPages": 169,
+        "publicationDate": "1999-09-30"
+    },
+    {
+        "author": "Artemis Fowl",
+        "title": "Artemis Fowl",
+        "imageUrl": "https://images-na.ssl-images-amazon.com/images/I/81Xy1ugiWeL._AC_UL600_SR600,400_.jpg",
+        "price": 15.00,
+        "genre": "mystery",
+        "numberOfPages": 200,
+        "publicationDate": "1999-11-11"
+    }
+]

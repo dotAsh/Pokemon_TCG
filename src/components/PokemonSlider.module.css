@@ -1,0 +1,18 @@
+
+.slide {
+  padding: 10px 10px;
+  padding-top: 10px;
+
+}
+
+.image {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+}
+
+.customArrow {
+  z-index: 1;
+  color: rgb(41, 32, 56);
+
+}

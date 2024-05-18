@@ -2,32 +2,44 @@
 @tailwind components;
 @tailwind utilities;
 
-:root {
-  --foreground-rgb: 0, 0, 0;
-  --background-start-rgb: 214, 219, 220;
-  --background-end-rgb: 255, 255, 255;
+html,
+body,
+#__next {
+  height: 100%;
+}
+.title{
+    font-size: 61px;
+    line-height: 1.2em;
+    padding-top: 6px;
+    color: #fff;
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --foreground-rgb: 255, 255, 255;
-    --background-start-rgb: 0, 0, 0;
-    --background-end-rgb: 0, 0, 0;
-  }
+.pcss{
+  display: block;
+  font-size: 16px;
+  line-height: 20px;
+  color: #fff;
 }
 
-body {
-  color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
+.calculatorContainer{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-top: 50px;
+}
+.calculatorContainer h1{
+  margin-bottom: 20px;
+  
+}
+.calculatorContainer button{
+  margin-bottom: 20px;
+  background-color: rgb(123, 194, 123);
 }
 
-@layer utilities {
-  .text-balance {
-    text-wrap: balance;
-  }
+.counterDiv{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 30%;
 }

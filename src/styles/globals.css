@@ -7,39 +7,4 @@ body,
 #__next {
   height: 100%;
 }
-.title{
-    font-size: 61px;
-    line-height: 1.2em;
-    padding-top: 6px;
-    color: #fff;
-}
 
-.pcss{
-  display: block;
-  font-size: 16px;
-  line-height: 20px;
-  color: #fff;
-}
-
-.calculatorContainer{
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  padding-top: 50px;
-}
-.calculatorContainer h1{
-  margin-bottom: 20px;
-  
-}
-.calculatorContainer button{
-  margin-bottom: 20px;
-  background-color: rgb(123, 194, 123);
-}
-
-.counterDiv{
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  width: 30%;
-}

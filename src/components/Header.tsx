@@ -1,10 +1,10 @@
-import { useContext } from 'react';
+
 import useCounter from '@/hooks/react-query-hooks';
 import Image from 'next/image';
 import Link from "next/link";
 
 const Header = () => {
-  console.log("header component");
+ 
   
   const count = useCounter((state) => state.count);
   const user = useCounter((state) => state.user);

@@ -1,30 +1,37 @@
-import React, { useState } from 'react';
-import { useRouter } from 'next/router';
-import useCounter from '@/hooks/react-query-hooks';
+import React, { useState } from "react";
+import { useRouter } from "next/router";
+import useCounter from "@/hooks/react-query-hooks";
 
 const Login = () => {
-  const [username, setUsername] = useState('');
-  const [password, setPassword] = useState('');
+  const [username, setUsername] = useState("");
+  const [password, setPassword] = useState("");
   const login = useCounter((state) => state.login);
   const router = useRouter();
 
   const handleSubmit = (event: React.FormEvent) => {
     event.preventDefault();
-    if (username === 'codecamp' && password === '123') {
+    if (username === "codecamp" && password === "123") {
       login(username);
-      router.push('/');
+      router.push("/");
     } else {
-      alert('Invalid credentials');
+      alert("Invalid credentials");
     }
   };
 
   return (
     <div className="min-h-screen flex items-center justify-center w-full dark:bg-gray-950">
       <div className="bg-white dark:bg-gray-900 shadow-md rounded-lg px-8 py-6 max-w-md">
-        <h1 className="text-2xl font-bold text-center mb-4 dark:text-gray-200">Welcome Back!</h1>
+        <h1 className="text-2xl font-bold text-center mb-4 dark:text-gray-200">
+          Welcome Back!
+        </h1>
         <form onSubmit={handleSubmit}>
           <div className="mb-4">
-            <label htmlFor="email" className="block text-sm font-medium text-gray-700 dark:text-gray-300 mb-2">Username</label>
+            <label
+              htmlFor="email"
+              className="block text-sm font-medium text-gray-700 dark:text-gray-300 mb-2"
+            >
+              Username
+            </label>
             <input
               type="text"
               id="username"
@@ -35,7 +42,12 @@ const Login = () => {
             />
           </div>
           <div className="mb-4">
-            <label htmlFor="password" className="block text-sm font-medium text-gray-700 dark:text-gray-300 mb-2">Password</label>
+            <label
+              htmlFor="password"
+              className="block text-sm font-medium text-gray-700 dark:text-gray-300 mb-2"
+            >
+              Password
+            </label>
             <input
               type="password"
               id="password"

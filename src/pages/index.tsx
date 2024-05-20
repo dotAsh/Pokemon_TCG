@@ -10,14 +10,8 @@ import { QueryKeys } from "@/models/enums";
 import PokemonSetCard from "../components/PokemonSetCard";
 
 
-export interface SetProps {
-  set: Set;
-  setSelectedSet: (set: Set | null) => void;
-}
-/*
-export interface HomeProps {
-  dehydratedState: DehydratedState;
-}*/
+
+
 export const getStaticProps: GetStaticProps<{
   dehydratedState: DehydratedState;
 }> = async () => {

@@ -10,7 +10,7 @@ const Footer = () => {
         <div className="container px-6 py-8 mx-auto">
           <div className="flex flex-col items-center sm:flex-row sm:justify-between">
             <p className="text-sm text-gray-500">
-              © Copyright 2021. All Rights Reserved.
+              © Copyright 2024. All Rights Reserved.
             </p>
 
             <div className="flex mt-3 -mx-2 sm:mt-0">

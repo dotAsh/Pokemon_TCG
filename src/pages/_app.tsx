@@ -17,7 +17,7 @@ export default function App({ Component, pageProps }: AppProps) {
   return (
     <QueryClientProvider client={queryClient}>
       <HydrationBoundary state={pageProps.dehydratedState}>
-        <div className="px-20 flex flex-col min-h-screen">
+        <div className=" flex flex-col min-h-screen">
           <Header />
           <main className="flex-grow">
             <Component {...pageProps} />

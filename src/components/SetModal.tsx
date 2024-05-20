@@ -8,7 +8,7 @@ const SetModal: React.FC<SetProps> = ({ set, setSelectedSet }) => {
 
   return (
     <div className="flex flex-col h-24">
-      <label htmlFor="my_modal_6" className="btn" onClick={openModal}>
+      <label htmlFor="my_modal_6" className="my-2 btn" onClick={openModal}>
         Quick View
       </label>
       <input type="checkbox" id="my_modal_6" className="modal-toggle" />
